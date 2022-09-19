@@ -6,6 +6,7 @@
  --viola: #9792E4;
  --arancio: #FDC15F;
  --footer: #333333;
+ --grigio: rgb(92, 112, 130);
 }
 *{
     margin: 0;
@@ -33,6 +34,9 @@ body{
 }
 .align-center{
     align-items: center;
+}
+.justify-center{
+    justify-content: center;
 }
 
 /*header*/
@@ -62,16 +66,40 @@ header a{
 }
 .card{
     background-color: var(--azzurro);
+    padding: 15px;
     margin-bottom: 1.5rem;
     border-radius: 10px;
 }
 .btnblu{
     background-color: var(--blu);
     color: white;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px 80px 20px;
 }
 img{
     width: 80%;
 }
+.backwhite{
+    background-color: white;
+    width: 80%;
+    border-radius: 15px;
+    
+}
+h3 h4{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+    color: var(--blu);
+}
+h3{
+    color: var(--white);
+}
+h4{
+    color: black;
+}
+
 /*footer*/
 footer{
     background-color: var(--footer);
