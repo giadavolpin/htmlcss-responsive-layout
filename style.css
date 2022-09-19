@@ -61,10 +61,17 @@ header a{
     padding: 0 2rem; 
 }
 .card{
-    background-color: var();
+    background-color: var(--azzurro);
     margin-bottom: 1.5rem;
+    border-radius: 10px;
 }
-
+.btnblu{
+    background-color: var(--blu);
+    color: white;
+}
+img{
+    width: 80%;
+}
 /*footer*/
 footer{
     background-color: var(--footer);
@@ -77,9 +84,11 @@ footer{
         max-width: 750px;
     }
     #intro .cards{
+        display: flex;
+        flex-flow: row wrap;
         margin-left: -0.75rem;
         margin-right: -0.75rem;
-        width: calc((100% / 3) - 1.5rem);
+        width: calc((100% / 3) - 1.5rem); 
     }
     #intro .card{
         margin-left: 0.75rem;
@@ -87,6 +96,6 @@ footer{
         width: (33.33% - 1.5rem);
     }
     #intro .card:first-child{
-
+        width: calc(66.66% - 1.5rem);
     }
 }
