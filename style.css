@@ -79,30 +79,53 @@ header a{
 }
 .cerchio{
     border-radius: 50%; /*sistemare qui*/
-    padding: 15px;
     background-color: var(--viola);
+    text-align: center;
 }
 
 img{
     width: 80%;
+    margin: 20px 0;
 }
 .backwhite{
     background-color: white;
-    width: 80%;
-    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
 }
-h3 h4{
-    font-size: 24px;
+.backviola{
+    background-color: var(--viola);
+    padding: 15px;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
 }
-h2{
-    font-size: 20px;
+img.backviola{
+    border-radius: 50%;
+}
+.blu{  
     color: var(--blu);
+    text-align: center;
 }
-h3{
-    color: var(--white);
+.bianco{
+    color: var(--bianco);
+    text-align: center;
 }
-h4{
-    color: black;
+.grigio{
+    color: var(--grigio);
+    text-align: center;
+}
+.nero{
+    color: var(--nero);
+    text-align: center;
+}
+.viola{
+    color: var(--viola);
+    text-align: center;
 }
 
 /*footer*/
