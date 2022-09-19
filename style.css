@@ -1,5 +1,12 @@
 :root{
  --white: #ffffff;
+ --black: #000000;
+ --blu: #0084FD;
+ --azzurro: #B5DDFF;
+ --viola: #9792E4;
+ --arancio: #FDC15F;
+ --footer: #333333;
+ 
 }
 
 *{
@@ -37,7 +44,9 @@ header{
     padding: 1rem 2rem;
     margin-bottom: 50px;
     position: sticky;
-    
+}
+.btn{
+
 }
 .main-menu{
     display: none;
