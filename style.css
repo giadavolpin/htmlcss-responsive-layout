@@ -70,12 +70,26 @@ header a{
     margin-bottom: 1.5rem;
     border-radius: 10px;
 }
+.cardbianco{
+    background-color: var(--bianco);
+    padding: 15px;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
 .btnblu{
     background-color: var(--blu);
     color: white;
     border-radius: 40px;
     text-align: center;
     margin: 10px 80px 20px;
+}
+.btnviola{
+    background-color: var(--viola);
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    padding: 5px 10px;
+    
 }
 .cerchio{
     border-radius: 50%; /*sistemare qui*/
@@ -104,7 +118,7 @@ img{
     margin-bottom: 1.5rem;
     border-radius: 10px;
 }
-img.backviola{
+.backviola img{
     border-radius: 50%;
 }
 .blu{  
