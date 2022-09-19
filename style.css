@@ -47,7 +47,7 @@ header{
     margin-bottom: 50px;
     position: sticky;
 }
-.btn{
+.btnbianco{
 
 }
 .main-menu{
@@ -77,6 +77,12 @@ header a{
     text-align: center;
     margin: 10px 80px 20px;
 }
+.cerchio{
+    border-radius: 50%; /*sistemare qui*/
+    padding: 15px;
+    background-color: var(--viola);
+}
+
 img{
     width: 80%;
 }
@@ -84,7 +90,6 @@ img{
     background-color: white;
     width: 80%;
     border-radius: 15px;
-    
 }
 h3 h4{
     font-size: 24px;
