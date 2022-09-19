@@ -6,9 +6,7 @@
  --viola: #9792E4;
  --arancio: #FDC15F;
  --footer: #333333;
- 
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -39,8 +37,8 @@ body{
 
 /*header*/
 header{
-    background-color: var();
-    color: var();
+    background-color: var(--blu);
+    color: var(--white);
     padding: 1rem 2rem;
     margin-bottom: 50px;
     position: sticky;
@@ -52,12 +50,12 @@ header{
     display: none;
 }
 header a{
-    color: var();
+    color: var(--white);
     text-decoration: none;
 }
 /* main*/
 #planning, #features, #get-started{
-    background-color: var();
+    background-color: var(--viola);
 }
 #intro{
     padding: 0 2rem; 
@@ -69,7 +67,7 @@ header a{
 
 /*footer*/
 footer{
-    background-color: var();
+    background-color: var(--footer);
 }
 
 /*responsive*/
