@@ -20,7 +20,6 @@
 body{
     background-color: var(--white);
     font-family: 'PT Sans', sans-serif;
-    
 }
 .container{
     max-width: 600px;
@@ -50,6 +49,9 @@ header{
 .btnbianco{
 
 }
+.logo{
+    width: 50px;
+}
 .main-menu{
     display: none;
 }
@@ -66,7 +68,7 @@ header a{
 }
 .card{
     background-color: var(--azzurro);
-    padding: 15px;
+    padding: 25px;
     margin-bottom: 1.5rem;
     border-radius: 10px;
 }
@@ -81,7 +83,10 @@ header a{
     color: white;
     border-radius: 40px;
     text-align: center;
-    margin: 10px 80px 20px;
+    margin-right: 350px;
+    padding: 7px;
+    margin-top: 30px;
+    display: block;
 }
 .btnviola{
     background-color: var(--viola);
@@ -91,10 +96,9 @@ header a{
     padding: 5px 10px;
     
 }
-.cerchio{
-    border-radius: 50%; /*sistemare qui*/
+#cerchio{
     background-color: var(--viola);
-    text-align: center;
+   
 }
 
 img{
@@ -103,8 +107,9 @@ img{
 }
 .backwhite{
     background-color: white;
-    padding: 15px;
-    margin-bottom: 1.5rem;
+    padding: 25px;
+    margin: 1.5rem;
+   /*  margin-bottom: 1.5rem; */
     border-radius: 10px;
    
     display: flex;
@@ -125,6 +130,9 @@ img{
     color: var(--blu);
     text-align: center;
 }
+.blusn{
+    color: var(--blu);
+}
 .bianco{
     color: var(--bianco);
     text-align: center;
@@ -132,6 +140,9 @@ img{
 .grigio{
     color: var(--grigio);
     text-align: center;
+}
+.grigiosn{
+    color: var(--grigio);
 }
 .nero{
     color: var(--nero);
