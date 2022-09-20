@@ -101,14 +101,13 @@ header a{
     border-radius: 10px;
 }
 .btnblu{
+    display: inline-block;
     background-color: var(--blu);
     color: white;
     border-radius: 40px;
     text-align: center;
-    margin-right: 350px;
-    padding: 7px;
+    padding: 10px 65px;
     margin-top: 30px;
-    display: block;
 }
 .btnviola{
     background-color: var(--viola);
@@ -123,7 +122,7 @@ header a{
     border-radius: 40px;
     text-align: center;
     padding: 5px 10px;  
-   margin: 10px 350px 70px 0px;
+    margin: 10px 350px 70px 0px;
 }
 .in{
     padding: 10px;
